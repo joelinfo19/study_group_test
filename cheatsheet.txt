@@ -1,0 +1,31 @@
+git clone $REPOSITORY
+
+-- Basic Commands
+git status
+git add ...
+git rm ...
+git push
+git pull
+git log
+
+
+-- Create new local branch
+git branch $BRANCH
+
+-- Delete local branch
+git branch -d $BRANCH
+
+-- Move to branch
+git checkout $BRANCH
+
+-- Create and move to branch
+git checkout -b $BRANCH
+
+-- Move branch to remote repository
+git push --set-upstream origin $BRANCH
+git push -u origin $BRANCH
+
+-- Delete remote branch
+git push origin -d $BRANCH 
+-- Force delete remote branch
+git push origin -D $BRANCH 
