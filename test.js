@@ -24,3 +24,5 @@ fsff
 
 jery sanca zevallos"rama develop"
 jery sanca zevallos"rama develop 2"
+name = "Daniel Alegria"
+codigo = 215270
